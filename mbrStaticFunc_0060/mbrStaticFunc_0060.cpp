@@ -10,4 +10,9 @@ private:
 public:
 	int id;
 	string nama;
+
+	void setID();
+	void printAll();
+
+	static void setNim(int pNim) { nim = pNim; }
 };
